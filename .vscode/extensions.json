@@ -27,5 +27,6 @@
         // "vsciot-vscode.vscode-arduino",
         // LaTeX
         "james-yu.latex-workshop",
+        // "tomoki1207.pdf",
     ]
 }
