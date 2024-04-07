@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Dmitry Ponyatov <dponyatov@gmail.com>"
+	],
+	"copyright": "Copyright © 2024, Dmitry Ponyatov <dponyatov@gmail.com>",
+	"description": "язык Тыква: натыквал и в прод",
+	"license": "MIT",
+	"name": "tykva"
+}

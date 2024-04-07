@@ -1,0 +1,6 @@
+*~
+*.swp
+*.log
+/socs/
+.dub/
+!.gitignore
