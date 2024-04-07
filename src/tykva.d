@@ -1,10 +1,10 @@
 import std.stdio;
 
-void main(string[] arg) {
-    foreach (argc, argv; arg)
+void main(string[] args) {
+    foreach (argc, argv; args)
         arg(argc, argv);
 }
 
-void arg(int argc, string argv) {
-    writefln("argv[%i] = <%s>", argc, argv);
+void arg(size_t argc, string argv) {
+    writefln("argv[%d] = <%s>", argc, argv);
 }

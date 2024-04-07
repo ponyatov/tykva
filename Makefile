@@ -21,6 +21,13 @@ all:
 run: $(T)
 	dub run -- $^
 
+# doc
+.PHONY: doc
+doc:
+
+.PHONY: doxy
+doxy:
+
 # format
 .PHONY: format
 format: tmp/format_c tmp/format_d
