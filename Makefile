@@ -13,10 +13,10 @@ CF   = clang-format -style=file
 C  = $(wildcard src/*.c*)
 H  = $(wildcard inc/*.h*)
 D  = $(wildcard src/*.d*)
-T  = $(wildcard lib/*.t*)
+T  = $(wildcard lib/*.тык)
 
 # all
-.PHONY: all run 
+.PHONY: all run
 all:
 	dub build
 run: $(T)

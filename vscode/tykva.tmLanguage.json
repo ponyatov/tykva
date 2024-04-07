@@ -2,7 +2,7 @@
     "name": "tykva",
     "scopeName": "script.tykva",
     "fileTypes": [
-        "t"
+        "тык"
     ],
     "patterns": [
         {
@@ -26,7 +26,7 @@
             "patterns": [
                 {
                     "comment": "pythonic/shell line comment",
-                    "match": "#.*$",
+                    "match": "№.*$",
                     "name": "comment.line.number-sign"
                 },
                 {

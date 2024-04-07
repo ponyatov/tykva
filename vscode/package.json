@@ -42,7 +42,7 @@
                     "tykva"
                 ],
                 "extensions": [
-                    ".t"
+                    ".тык"
                 ],
                 "configuration": "./tykva.configuration.json"
             }

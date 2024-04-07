@@ -17,6 +17,9 @@
 \usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
 \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
+% graphics
+\usepackage[pdftex]{graphicx}
+
 % Cyrillization
 %% \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -49,6 +52,11 @@
 \subsection*{#1}
 \addcontentsline{toc}{subsection}{#1}
 }
+
+% [nosep] option in lists/enums
+\usepackage{enumitem}
+% frame box
+\usepackage{framed}
 
 \newcommand{\T}{Тыква}
 \newcommand{\D}{D}
