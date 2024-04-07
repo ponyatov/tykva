@@ -25,5 +25,7 @@
         "basdp.language-gas-x86",
         // Arduino
         // "vsciot-vscode.vscode-arduino",
+        // LaTeX
+        "james-yu.latex-workshop",
     ]
 }
