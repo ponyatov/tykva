@@ -1,0 +1,64 @@
+{
+    "name": "tykva",
+    "displayName": "tykva script",
+    "version": "0.0.1",
+    "publisher": "dponyatov",
+    "author": {
+        "name": "Dmitry Ponyatov",
+        "email": "dponyatov@gmail.com"
+    },
+    "categories": [
+        "Programming Languages",
+        "Debuggers",
+        "Notebooks",
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ponyatov/legas/tree/dev/vscode"
+    },
+    "homepage": "https://github.com/ponyatov/legas",
+    "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+        "onCommand:tykva.hello",
+        "onStartupFinished",
+        "onLanguage:tykva"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "tykva.hello",
+                "title":   "tykva: Hello"
+            }
+        ],
+        "languages": [
+            {
+                "id": "tykva",
+                "aliases": [
+                    "tykva"
+                ],
+                "extensions": [
+                    ".t"
+                ],
+                "configuration": "./tykva.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tykva",
+                "scopeName": "script.tykva",
+                "path": "./tykva.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "tykva",
+                "path": "./tykva.snippets.json"
+            }
+        ]
+    }
+}
